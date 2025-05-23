@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="copadionisio.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagenes/iconos/copadionisio.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./CSS/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <title>DIONISIO'S VINOTECA</title>
     <!--jonas y ailen hicieron el codigo inicial de la pagina-->
     <!--lautaro hizo el sketch-->
@@ -13,19 +17,29 @@
 <body>
     <header>
     <nav>
-        <li>
-            <a href="2do folio.html">Vinos que disponemos</a>
+        <li class="lista"><!--aqui va el interno una parte de lapagina-->
+            <a href="index.html">Inicio</a>
         </li>
-        <li><p>Para saber más sobre la historia de los vinos aquí:<a href="https://es.wikipedia.org/wiki/Historia_del_vino">Vinos</a></p></li>
-        <li><!--aqui va el interno una parte de lapagina-->
-            <a href="2do folio.html#vinors">Vinos Rosados</a>
+        <li class="lista">
+            <a href="stock.html">Stock</a>
         </li>
-        <li></li>
-        <p>Este sitio web es sobre una vinoteca</p>
+        <li class="lista">
+            <a href="vinos.html">Vinos</a>
+        </li>
+        <li class="lista">
+            <a href="informacion.html">Info</a>
+        </li>
+        <li class="lista">
+            <a href="bodegas.html">Bodegas</a>
+        </li>
+        <p class="encabezado">Este sitio web es sobre una vinoteca</p>
     </nav>
     </header>
-    <img src="./vino.jpg" alt="imagen de catalogo de vino">
-    <img src="./vino2.jpg" alt="imagen de vino"><br>
-    <a href="2do folio.html">ir a la otra pagina</a>
+    <!--carrusel-->
+    <img src="./imagenes/vino.jpg" alt="imagen de catalogo de vino">
+    <img src="./imagenes/vino2.jpg" alt="imagen de vino"><br>
+    <p>Aqui van a ir las ofertas</p>
+    <p>Aqui van a ir las novedades</p>
+    <a href="vinos.html">ir a la otra pagina</a>
 </body>
 </html>
