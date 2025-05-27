@@ -1,0 +1,47 @@
+/*encabezado*/
+header{
+ background-color: #901501;
+ display: block;
+ width: auto;
+ border: 2px solid #BD8C00 ;
+ font-family: "Dancing Script", cursive;
+ font-weight: 700;
+ 
+}
+.lista{
+    color: white;
+    font-size: 20px;
+    margin-left: 13px;
+    display: inline;
+    margin-right: 15px;
+}
+.encabezado{
+    font-size:13px;
+    color:white;
+    margin-left: 10px;
+}
+
+/*pie de pagina*/
+footer{
+    background-color:#901501;
+    
+}
+
+/*cuerpo de pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+ background-color: antiquewhite;
+}
+p{
+    color:black;
+    
+}
+/*enlaces*/
+a{
+    
+    color: white;
+    
+}
+a:hover{
+    color:#BD8C00;
+}
