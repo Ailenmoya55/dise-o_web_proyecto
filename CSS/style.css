@@ -29,14 +29,17 @@ footer{
 
 /*cuerpo de pagina*/
 @font-face {
-    font-family: "ancizar serif";
+    font-family: "ancizar_serif";
     src: url(../fonts/Ancizar_Serif/AncizarSerif-Italic-VariableFont_wght.ttf);
 }
 body{
- background-color: antiquewhite;
+    
+    background-color: white;
 }
 p{
-    color:black;
+    color:red;
+    font-family: "ancizar_serif";
+   
     
 }
 /*enlaces*/
