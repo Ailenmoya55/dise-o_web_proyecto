@@ -6,7 +6,7 @@ header{
  border: 2px solid #BD8C00 ;
  font-family: "Dancing Script", cursive;
  font-weight: 700;
- 
+
 }
 .lista{
     color: white;
@@ -28,7 +28,10 @@ footer{
 }
 
 /*cuerpo de pagina*/
-@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "ancizar serif";
+    src: url(../fonts/Ancizar_Serif/AncizarSerif-Italic-VariableFont_wght.ttf);
+}
 body{
  background-color: antiquewhite;
 }
@@ -38,7 +41,7 @@ p{
 }
 /*enlaces*/
 a{
-    
+    font-size: 35px;
     color: white;
     
 }
