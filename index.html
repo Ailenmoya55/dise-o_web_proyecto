@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./imagenes/iconos/copadionisio.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="./CSS/style.css"/>
+    <link rel="shortcut icon" href="./assets/img/iconos/copadionisio.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
@@ -17,29 +16,48 @@
 <body>
     <header>
     <nav>
-        <li class="lista"><!--aqui va el interno una parte de lapagina-->
-            <a href="index.html">Inicio</a>
-        </li>
-        <li class="lista">
-            <a href="stock.html">Stock</a>
-        </li>
-        <li class="lista">
-            <a href="vinos.html">Vinos</a>
-        </li>
-        <li class="lista">
-            <a href="informacion.html">Info</a>
-        </li>
-        <li class="lista">
-            <a href="bodegas.html">Bodegas</a>
-        </li>
-        <p class="encabezado">Este sitio web es sobre una vinoteca</p>
+        <ul>
+            <li class="lista"><!--aqui va el interno una parte de lapagina-->
+                <a class="head" href="index.html">Inicio</a>
+            </li>
+            <li class="lista">
+                <a class="head" href="./paginas/stock.html">Stock</a>
+            </li>
+            <li class="lista">
+                <a class="head" href="./paginas/vinos.html">Vinos</a>
+            </li>
+            <li class="lista">
+                <a class="head" href="./paginas/informacion.html">Info</a>
+            </li>
+            <li class="lista">
+                <a class="head" href="./paginas/bodegas.html">Bodegas</a>
+            </li>
+        </ul>
     </nav>
+
     </header>
+    
     <!--carrusel-->
-    <img src="./imagenes/vino.jpg" alt="imagen de catalogo de vino">
-    <img src="./imagenes/vino2.jpg" alt="imagen de vino"><br>
-    <p>Aqui van a ir las ofertas</p>
-    <p>Aqui van a ir las novedades</p>
-    <a href="vinos.html">ir a la otra pagina</a>
+    <div class="carrusel">
+    <img src="./assets/img/vino.jpg" alt="imagen de vino">
+    <img src="./assets/img/vino2.jpg" alt="imagen de vino">
+    <img src="./assets/img/vino3.jpeg" alt="imagen de vino">
+    <img src="./assets/img/vino4.jpeg" alt="imagen de vino">
+    <img src="./assets/img/vino5.jpeg" alt="imagen de vino">
+    <img src="./assets/img/vino6.jpeg" alt="imagen de vino">
+    <img src="./assets/img/vino7.jpeg" alt="imagen de vino">
+    </div>
+    <section>
+        <h1>Ofertas</h1>
+        <p>Aqui van a ir las ofertas</p>
+        <p>hola</p>
+    </section>
+    <section>
+        <h2>Novedades</h2>
+        <p>Aqui van a ir las novedades</p>
+    </section>
+    <a href="./paginas/vinos.html">ir a la otra pagina</a>
+    <p>chau  </p>
+    <a href="https://es.wikipedia.org/wiki/Historia_del_vino">historia </a>
 </body>
 </html>
